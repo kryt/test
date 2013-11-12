@@ -21,12 +21,12 @@ void loop()
   if( moo<250)
   {
   
-//    brgt[0]=moo;
+    brgt[0]=moo;
     brgt[1]=moo;
     brgt[2]=moo;
-//    brgt[3]=moo;
-//    brgt[4]=moo;
-//    brgt[5]=moo;
+    brgt[3]=moo;
+    brgt[4]=moo;
+    brgt[5]=moo;
   
 //    analogWrite(leds[0],brgt[0]);
     analogWrite(leds[1],brgt[1]);
