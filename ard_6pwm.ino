@@ -28,12 +28,12 @@ void loop()
     brgt[4]=moo;
     brgt[5]=moo;
   
-//    analogWrite(leds[0],brgt[0]);
+    analogWrite(leds[0],brgt[0]);
     analogWrite(leds[1],brgt[1]);
     analogWrite(leds[2],brgt[2]);
-//    analogWrite(leds[3],brgt[3]);
-//    analogWrite(leds[4],brgt[4]);
-//    analogWrite(leds[5],brgt[5]);
+    analogWrite(leds[3],brgt[3]);
+    analogWrite(leds[4],brgt[4]);
+    analogWrite(leds[5],brgt[5]);
     moo=moo+10;
  
   }
